@@ -93,3 +93,28 @@ footer {
   padding: 1.2rem;
   margin-top: 2rem;
 }
+.impressum {
+  margin-top: 1.5rem;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 1rem;
+  border-radius: 8px;
+  text-align: left;
+  display: inline-block;
+  max-width: 600px;
+}
+
+.impressum h3 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  color: #fff;
+}
+
+.impressum ul {
+  margin: 0.5rem 0;
+  padding-left: 1.2rem;
+}
+
+.impressum li {
+  margin-bottom: 0.2rem;
+}
+
