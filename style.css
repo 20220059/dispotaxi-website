@@ -26,9 +26,11 @@ header p {
   font-size: 1.2rem;
 }
 
-/* Sektionen */
+/* Sektionen allgemein */
 section {
-  padding: 3rem 10%;
+  padding: 3rem 5%;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .intro, .ziel {
@@ -36,7 +38,7 @@ section {
   border-radius: 10px;
   box-shadow: 0 3px 10px rgba(0,0,0,0.1);
   margin: 2rem auto;
-  max-width: 900px;
+  padding: 2rem;
 }
 
 .intro h2, .ziel h2 {
@@ -46,6 +48,7 @@ section {
 /* Features */
 .features {
   background: #eef4ff;
+  padding: 3rem 5%;
 }
 
 .features h2 {
@@ -56,13 +59,15 @@ section {
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .grid article {
   background: #fff;
-  padding: 1.5rem;
+  padding: 2rem 1.5rem;
   border-radius: 12px;
   text-align: center;
   box-shadow: 0 3px 8px rgba(0,0,0,0.1);
@@ -77,12 +82,12 @@ section {
 .grid i {
   font-size: 2rem;
   color: #0072ff;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.8rem;
 }
 
 .grid h3 {
   color: #333;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.6rem;
 }
 
 /* Footer */
@@ -90,7 +95,7 @@ footer {
   background: #0072ff;
   color: #fff;
   text-align: center;
-  padding: 1.5rem;
+  padding: 2rem 1.5rem;
   margin-top: 2rem;
 }
 
@@ -98,7 +103,7 @@ footer {
 .impressum {
   margin-top: 1.5rem;
   background: rgba(255, 255, 255, 0.1);
-  padding: 1rem 1.5rem;
+  padding: 1.5rem;
   border-radius: 8px;
   text-align: left;
   display: inline-block;
